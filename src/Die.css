@@ -1,0 +1,25 @@
+.cubes-div{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 20px;
+    margin: 10px;
+}
+
+.cube-face{
+
+    font-weight: 700;
+    font-size: 13vw;
+    background-color: yellowgreen;
+    width: 16vw;
+    height: 16vw;
+    border:5px black solid;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
